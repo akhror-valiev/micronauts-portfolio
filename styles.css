@@ -5,22 +5,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
-
- 
-  nav{
+  nav {
     display: flex;
     justify-content: space-between;
     margin: 10px;
     align-items: center;
     height: 40px;
-    
-    
-   
   }
 
-
-  section{
+  section {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,10 +28,9 @@
 
   h1 {
     font-weight: 700;
-    line-height:52px;
+    line-height: 52px;
     font-size: 40px;
     padding-right: 30px;
-   
   }
 
   p {
@@ -48,35 +40,27 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-   
   }
 
-
-
-  a p{
+  a p {
     text-transform: uppercase;
     font-weight: 500;
-    color: #6070FF;
+    color: #6070ff;
     margin-top: 20px;
     font-size: 15px;
     line-height: 24px;
-    
   }
 
-  a{
+  a {
     text-decoration-line: none;
   }
 
-div a img{
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 15px;
-  height: 15px;
-  
-}
-
-  
- 
+  div a img {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+  }
 
   .hamburger-menu {
     display: flex;
@@ -85,16 +69,13 @@ div a img{
     height: 15px;
     width: 28px;
     cursor: pointer;
-    
-    
   }
 
   .bar-top,
   .bar-middle,
   .bar-bottom {
     height: 3px;
-    background-color:  #6070FF
-    
+    background-color: #6070ff;
   }
 }
 
