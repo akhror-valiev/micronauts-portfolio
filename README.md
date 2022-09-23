@@ -15,6 +15,45 @@
 [Live Demo Link](https://akhror-valiev.github.io/micronauts-portfolio/)
 
 
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Setup
+
+### Install
+1. Clone the repo
+   ```sh
+   git clone https://github.com/akhror-valiev/micronauts-portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+### Usage
+
+### Run tests
+
+```sh
+   No need Run Test
+   ```
+
+### Deployment
+
+
 
 
 
