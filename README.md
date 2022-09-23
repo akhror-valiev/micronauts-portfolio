@@ -31,7 +31,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Setup
+
 
 ### Install
 1. Clone the repo
@@ -43,15 +43,13 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 
-### Usage
 
 ### Run tests
 
-```sh
+   ```sh
    No need Run Test
    ```
 
-### Deployment
 
 
 
