@@ -245,27 +245,19 @@ div a img {
 }
 
 .about-language {
-  
   margin-top: 70px;
   list-style: none;
 }
 
-
-
-
-
 .about-language ul {
   margin-top: 40px;
-  
 }
 
 .about-language p {
   background: #e5e5e5;
 
-font-size: 15px;
-font-weight: 500;
-
-
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .about-language .language-arrow {
@@ -281,7 +273,6 @@ font-weight: 500;
   text-align: left;
   color: #344563;
   list-style: none;
-  
 }
 
 .about-language .language-items {
@@ -292,21 +283,12 @@ font-weight: 500;
 
 .language-items .language-item {
   display: flex;
- 
-  background: #e5e5e5;
-  
-  
 
-  
+  background: #e5e5e5;
 
   border-radius: 8px;
 }
 
 .language-item img {
   margin: 5px 15px;
-  
 }
-
-
-
-
