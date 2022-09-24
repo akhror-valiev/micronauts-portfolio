@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
 body {
   border-bottom-left-radius: 100px;
   font-family: "Poppins", sans-serif;
-  border-bottom-left-radius: 50%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,7 +31,6 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100vw;
-
   border-bottom-left-radius: 100px;
 }
 
@@ -116,7 +113,7 @@ div a img {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-top: 12px;
   color: #344563;
@@ -133,7 +130,7 @@ div a img {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -147,7 +144,7 @@ div a img {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   color: #afaaaa;
 }
 
@@ -162,7 +159,6 @@ div a img {
 
 .project-tech span {
   padding: 6px 12px;
-
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -180,7 +176,6 @@ div a img {
 
 .project-info a {
   border: 1.5px solid #6070ff;
-
   border-radius: 16px;
   color: #6070ff;
   padding: 16px;
@@ -199,7 +194,7 @@ div a img {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
 }
@@ -208,11 +203,12 @@ div a img {
   padding-top: 10px;
   margin-left: 15px;
 }
+
 .about-section p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -238,9 +234,7 @@ div a img {
   text-align: center;
   color: #6070ff;
   border: 1.5px solid #6070ff;
-
   border-radius: 16px;
-
   padding: 16px;
 }
 
@@ -255,7 +249,6 @@ div a img {
 
 .about-language p {
   background: #e5e5e5;
-
   font-size: 15px;
   font-weight: 500;
 }
@@ -269,7 +262,7 @@ div a img {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
   list-style: none;
@@ -281,14 +274,12 @@ div a img {
   gap: 10px;
 }
 
-.language-items .language-item {
-  display: flex;
-
-  background: #e5e5e5;
-
-  border-radius: 8px;
+ul .language-item img {
+  margin: 5px 15px;
 }
 
-.language-item img {
-  margin: 5px 15px;
+.language-items .language-item {
+  display: flex;
+  background: #e5e5e5;
+  border-radius: 8px;
 }
