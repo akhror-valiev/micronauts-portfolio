@@ -360,10 +360,10 @@ fieldset input {
   border: none;
   height: 48px;
   text-align: start;
+  padding: 10px;
 }
 
 form input::placeholder {
-  padding: 0 0 0 10px;
   font-size: 17px;
   font-weight: 400;
   color: #172b4d;
@@ -375,13 +375,13 @@ fieldset textarea {
   top: 0;
   border-radius: 8px;
   width: 100%;
+  padding: 10px;
 }
 
 textarea::placeholder {
   font-size: 15px;
   font-weight: 400;
   color: #b3bac5;
-  padding: 15px 15px 38px 16px;
 }
 
 form input[type="submit"] {
