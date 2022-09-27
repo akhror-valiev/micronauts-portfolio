@@ -208,5 +208,52 @@
     
     </div>
     </section>
+    <section>
+      <div class="decc">
+
+      </div>
+      <div class="form">
+        <form
+              id="fs-frm"
+              name="simple-contact-form"
+              accept-charset="utf-8"
+              action="https://formspree.io/f/{{form-id}}"
+              method="post"
+            >
+              <fieldset id="fs-frm-inputs">
+                <input
+                  type="text"
+                  name="name"
+                  id="full-name"
+                  required=""
+                  placeholder="Oshie"
+                />
+
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email-address"
+                  required=""
+                  placeholder="oshie0115@gmail.com"
+                />
+
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Write your message"
+                  required=""
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  id="email-subject"
+                  value="Contact Form Submission"
+                />
+              </fieldset>
+              <input class="btn" type="submit" value="Get in touch" />
+            </form>
+      </div>
+    </section>
   </body>
 </html>
