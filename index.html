@@ -12,10 +12,6 @@
   </head>
 
   <body>
-    
-    
-  
-
     <section class="main-section__header">
       <header>
         <nav class="main-header__brand">
@@ -207,6 +203,56 @@
         </ul>
     
     </div>
+    </section>
+    <section class="contact-container">
+      <div class="decc">
+        <h2>Contact Me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      </div>
+      <div class="form">
+        <form
+              id="fs-frm"
+              name="simple-contact-form"
+              accept-charset="utf-8"
+              action="https://formspree.io/f/mrgdqjvg"
+              method="post"
+            >
+              <fieldset id="fs-frm-inputs">
+                <input
+                  type="text"
+                  name="name"
+                  id="full-name"
+                  required
+                  maxlength="30"
+                  placeholder="Oshie"
+                />
+
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email-address"
+                  required
+                  placeholder="oshie0115@gmail.com"
+                />
+
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Write your message"
+                  required
+                  maxlength="500"
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  id="email-subject"
+                  value="Contact Form Submission"
+                />
+              </fieldset>
+              <input class="btn" type="submit" value="Get in touch" />
+            </form>
+      </div>
     </section>
   </body>
 </html>
