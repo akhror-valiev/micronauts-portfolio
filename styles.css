@@ -361,6 +361,7 @@ fieldset input {
   height: 48px;
   text-align: start;
   padding: 10px;
+  font-size: 17px;
 }
 
 form input::placeholder {
