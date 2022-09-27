@@ -319,7 +319,7 @@ ul .language-item img {
 .contact-container {
   background-image: url(/images/contact_form_bg.svg);
   background-repeat: no-repeat;
-  background-size: 70vw;
+  background-size: 40vw;
   right: 80px;
   background-color: #6070ff;
   margin: 114px 24px 0 24px;
@@ -334,10 +334,10 @@ ul .language-item img {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
-.decc p{
+.decc p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -345,4 +345,62 @@ ul .language-item img {
   text-align: center;
   color: #ebebff;
   background-color: transparent;
+  padding: 0 10px 30px 10px;
+}
+
+form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+fieldset input {
+  border-radius: 8px;
+  border: none;
+  height: 48px;
+  text-align: start;
+}
+
+form input::placeholder {
+  padding: 0 0 0 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+fieldset textarea {
+  height: 170px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  width: 100%;
+}
+
+textarea::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #b3bac5;
+  padding: 15px 15px 38px 16px;
+}
+
+form input[type="submit"] {
+  height: 48px;
+  width: 140px;
+  left: 24px;
+  top: 5317px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+form .btn:hover {
+  background: #2230d2;
+  color: white;
 }
