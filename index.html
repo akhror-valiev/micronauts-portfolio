@@ -18,7 +18,12 @@
           <a href="index.html">
             <img src="images/logo.png" alt="Logo" />
           </a>
-  
+          <ul class="desktop">
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+
           <div class="hamburger-menu">
             <div class="bar-top"></div>
             <div class="bar-middle"></div>
@@ -27,14 +32,18 @@
         </nav>
       </header>
       <div class="main-section__items">
-        <h1 class="main-section__introduction">I'm Mariana Glad to see you</h1>
+        <h1 class="mobile">I'm Mariana <br />Glad to see<br />you!</h1>
+        <h1 class="desktop">
+          I'm Mariana<br />
+          Glad to see you!
+        </h1>
         <p class="main-section__text">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <div>
+        <div class="social-links">
           <h3>let's connect</h3>
 
           <div>
@@ -50,7 +59,7 @@
 
     <section class="project-section">
       <div class="project-items">
-        <img src="images/portfolio1.png" alt="Project photo" />
+        <img src="images/Snapshoot Portfolio1.svg" alt="Project photo" />
         <div class="project-info">
           <h2>Tonic</h2>
           <div class="project-details">
@@ -69,14 +78,13 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          
-            <a class="project-button" href="">See Project</a>
-          
+
+          <a class="project-button" href="">See Project</a>
         </div>
       </div>
 
       <div class="project-items">
-        <img src="images/portfolio2.png" alt="Project photo" />
+        <img class="mobile" src="images/portfolio2.png" alt="Project photo" />
         <div class="project-info">
           <h2>Multi-Post Stories</h2>
           <div class="project-details">
@@ -87,23 +95,30 @@
             </ul>
           </div>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
           </p>
+
           <ul class="project-tech">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          
-            <a href="" class="project-button">See Project</a>
-          
+
+          <a class="project-button" href="">See Project</a>
         </div>
+        <img
+          class="desktop"
+          src="images/Snapshoot Portfolio2.svg"
+          alt="Project photo"
+        />
       </div>
       <div class="project-items">
-        <img src="images/portfolio1.png" alt="Project photo" />
+        <img src="images/Snapshoot Portfolio3.svg" alt="Project photo" />
         <div class="project-info">
-          <h2>Tonic</h2>
+          <h2>Facebook 260</h2>
           <div class="project-details">
             <span class="project-detail">CANOPY</span>
             <ul class="project-stack">
@@ -117,18 +132,18 @@
           </p>
           <ul class="project-tech">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javascript</li>
           </ul>
-          
-            <a class="project-button" href="">See Project</a>
-          
+
+          <a class="project-button" href="">See Project</a>
         </div>
       </div>
       <div class="project-items">
-        <img src="images/portfolio1.png" alt="Project photo" />
+        <img class="mobile" src="images/portfolio1.png" alt="Project photo" />
         <div class="project-info">
-          <h2>Multi-Post Stories</h2>
+          <h2>Uber Navigation</h2>
           <div class="project-details">
             <span class="project-detail">CANOPY</span>
             <ul class="project-stack">
@@ -137,30 +152,37 @@
             </ul>
           </div>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
           </p>
           <ul class="project-tech">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javascript</li>
           </ul>
-   
-            <a class="project-button" href="">See Project</a>
-          
+
+          <a class="project-button" href="">See Project</a>
         </div>
+        <img
+          class="desktop"
+          src="images/Snapshoot Portfolio4.svg"
+          alt="Project photo"
+        />
       </div>
     </section>
 
     <section class="about-section">
-      <h2>About<br />Myself</h2>
+      <div class="wrap-one">
+        <h2>About<br />Myself</h2>
 
-      <p>
-        Hello I’m a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <div>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+
         <h3>LET'S CONNECT</h3>
 
         <ul class="about-socials">
@@ -172,10 +194,12 @@
         </ul>
         <div class="about-button">
           <a href="">Get My Resume</a>
-        
+        </div>
+      </div>
+      <div class="wrap-two">
         <ul class="about-language">
           <li>
-            <span>Languages</span>
+            <span class="span-lang">Languages</span>
             <img class="arrow" src="images/arrow1.svg" alt="Arrow down" />
             <ul class="language-items">
               <li class="language-item">
@@ -193,65 +217,74 @@
             </ul>
           </li>
           <li class="language-arrow">
-            <span>Frameworks</span>
-            <img  src="images/arrow2.svg" alt="Arror right" />
+            <span clsss="skills">Frameworks</span>
+
+            <img src="images/arrow2.svg" alt="Arror right" />
+            <hr />
           </li>
           <li class="language-arrow">
-            <span>Skills</span>
-            <img  src="images/arrow2.svg" alt="Arrow right" />
+            <span clsss="skills">Skills</span>
+
+            <img src="images/arrow2.svg" alt="Arrow right" />
+            <hr />
           </li>
         </ul>
-    
-    </div>
+      </div>
     </section>
     <section class="contact-container">
       <div class="decc">
         <h2>Contact Me</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
       </div>
       <div class="form">
         <form
-              id="fs-frm"
-              name="simple-contact-form"
-              accept-charset="utf-8"
-              action="https://formspree.io/f/mrgdqjvg"
-              method="post"
-            >
-              <fieldset id="fs-frm-inputs">
-                <input
-                  type="text"
-                  name="name"
-                  id="full-name"
-                  required
-                  maxlength="30"
-                  placeholder="Oshie"
-                />
+          id="fs-frm"
+          name="simple-contact-form"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/mrgdqjvg"
+          method="post"
+        >
+          <fieldset id="fs-frm-inputs">
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              required
+              maxlength="30"
+              placeholder="Oshie"
+            />
 
-                <input
-                  type="email"
-                  name="_replyto"
-                  id="email-address"
-                  required
-                  placeholder="oshie0115@gmail.com"
-                />
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              required
+              placeholder="oshie0115@gmail.com"
+            />
 
-                <textarea
-                  rows="5"
-                  name="message"
-                  id="message"
-                  placeholder="Write your message"
-                  required
-                  maxlength="500"
-                ></textarea>
-                <input
-                  type="hidden"
-                  name="_subject"
-                  id="email-subject"
-                  value="Contact Form Submission"
-                />
-              </fieldset>
-              <input class="btn" type="submit" value="Get in touch" />
-            </form>
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Write your message"
+              required
+              maxlength="500"
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
+          </fieldset>
+          <div>
+            <input class="btn" type="submit" value="Get in touch" />
+          </div>
+        </form>
       </div>
     </section>
   </body>
