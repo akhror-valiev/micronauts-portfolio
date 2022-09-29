@@ -227,8 +227,8 @@ h3 {
   background: white;
   border-top-right-radius: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 100px 40px 300px 40px;
+  grid-template-columns: 40% 60%;
+  padding: 100px 100px 300px 90px;
 }
 
 .about-section .wrap-one {
@@ -263,20 +263,24 @@ h3 {
   color: #7f8cff;
 }
 
-.wrap-one .about-button {
-  border: 1px solid #396df2;
-  width: 150px;
-  padding: 10px 0 10px 0;
-  text-align: center;
-  border-radius: 8px;
+.wrap-one .about-btn {
+  margin-top: 10px;
 }
 
 .wrap-one a {
   text-decoration: none;
+  padding: 10px 0 10px 0;
+  border: 1px solid #396df2;
   font-size: 17px;
   font-weight: 500;
   color: #396df2;
-  border: 1 solid #396df2;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.wrap-one a:hover {
+  background: #2230d2;
+  color: white;
 }
 
 .wrap-two {
@@ -287,7 +291,7 @@ h3 {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 
 hr {
@@ -301,7 +305,7 @@ hr {
 }
 
 .wrap-two .language-items {
-  margin-top: 10px;
+  margin-top: 30px;
   display: flex;
   justify-content: left;
   list-style-type: none;
