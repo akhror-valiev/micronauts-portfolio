@@ -278,6 +278,20 @@ h3 {
   transition: 0.9s;
 }
 
+.rotation {
+  animation: logo-rotate 0.5s 1 linear;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .wrap-one a {
   text-decoration: none;
   padding: 10px 0 10px 0;
