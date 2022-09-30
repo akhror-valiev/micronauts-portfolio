@@ -267,6 +267,17 @@ h3 {
   margin-top: 10px;
 }
 
+/* ANIMATION */
+
+.btn-anim {
+  transition: 0.4s;
+}
+
+.img-anim:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
 .wrap-one a {
   text-decoration: none;
   padding: 10px 0 10px 0;
@@ -424,7 +435,14 @@ form input[type="submit"] {
 form .btn:hover {
   background: #2230d2;
   color: white;
+  
 }
+
+
+
+
+
+
 
 /* ======================MOBILE VIEW ================================ */
 
