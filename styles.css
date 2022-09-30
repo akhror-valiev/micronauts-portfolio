@@ -267,6 +267,36 @@ h3 {
   margin-top: 10px;
 }
 
+/* ANIMATION */
+
+.btn-anim {
+  transition: 0.4s;
+}
+
+.img-anim:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+.rotation {
+  animation: logo-rotate 0.5s 1 linear;
+}
+
+.animate:hover {
+  transform: translate(20px);
+  transition: 0.9s;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .wrap-one a {
   text-decoration: none;
   padding: 10px 0 10px 0;
