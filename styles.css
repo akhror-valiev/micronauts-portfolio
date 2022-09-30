@@ -321,9 +321,13 @@ hr {
 /* =========================Contact Section=================== */
 
 .contact-container {
-  background-image: url(/images/contact_form_bg.svg);
+  background-image: url(/images/Header_bg.png);
   background-repeat: no-repeat;
-  background-size: 40vw;
+  background-size: 90vw;
+  background-position-y: 200px;
+  
+  
+
   right: 80px;
   background-color: #6070ff;
   margin-top: -10%;
@@ -735,7 +739,9 @@ form .btn:hover {
     background-image: url(/images/contact_form_bg.svg);
     background-repeat: no-repeat;
     background-size: 40vw;
-    right: 80px;
+    background-position-y:50px;
+    
+  
     background-color: #6070ff;
     margin-top: -12%;
     padding: 114px 24px;
