@@ -282,6 +282,11 @@ h3 {
   animation: logo-rotate 0.5s 1 linear;
 }
 
+.animate:hover {
+  transform: translate(20px);
+  transition: 0.9s;
+}
+
 @keyframes logo-rotate {
   from {
     transform: rotate(0deg);
