@@ -31,7 +31,7 @@ This is an example of how to list things you need to use the software and how to
 ### Install
 1. Clone the repo
    ```sh
-   git clone 
+   git clone https://akhror-valiev.github.io/micronauts-portfolio/
    ```
 2. Install NPM packages
    ```sh
