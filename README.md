@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://akhror-valiev.github.io/micronauts-portfolio/)
 
 ## Getting Started
 
