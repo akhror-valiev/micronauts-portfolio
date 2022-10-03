@@ -180,7 +180,7 @@ h3 {
 }
 
 .project-tech li {
-  padding: 6px 12px;
+  padding: 6px 13px;
   font-size: 12px;
   font-weight: 500;
   border-radius: 8px;
@@ -519,6 +519,12 @@ form .btn:hover {
     line-height: 24px;
   }
 
+  .social-links div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+
   .hamburger-menu {
     display: flex;
     flex-direction: column;
@@ -538,7 +544,7 @@ form .btn:hover {
   .project-section {
     display: grid;
     padding: 5% 5%;
-    gap: 50px;
+    gap: 10px;
     background-color: #e5e5e5;
   }
 
@@ -546,11 +552,11 @@ form .btn:hover {
     background-color: white;
     border-radius: 24px;
     border: 1px solid #dfe1e6;
-    padding: 16px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .project-items .desktop {
@@ -562,31 +568,30 @@ form .btn:hover {
   }
 
   .project-info {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
 
   .project-info h2 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 44px;
     letter-spacing: 0;
     text-align: left;
-    margin-top: 12px;
+    margin-top: 6px;
     color: #344563;
   }
 
   .project-details {
     display: flex;
-    padding-top: 15px;
+    padding-top: 5px;
     justify-content: left;
     color: #344563;
   }
 
   .project-details .project-detail {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0;
@@ -595,7 +600,6 @@ form .btn:hover {
 
   .project-details .project-stack {
     display: flex;
-    width: 50%;
     justify-content: space-evenly;
   }
 
@@ -613,23 +617,19 @@ form .btn:hover {
 
   .project-info p {
     text-align: left;
-    width: 100%;
   }
 
   .project-info .project-tech {
     display: flex;
-    padding-top: 15px;
+    padding-top: 5px;
     list-style: none;
   }
 
   .project-tech li {
-    padding: 6px 12px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    padding: 4px 4px;
+    font-size: 11px;
+    font-weight: 400;
     border-radius: 8px;
-    margin-right: 10px;
     color: #6070ff;
     border: none;
     background: #ebebff;
@@ -637,6 +637,8 @@ form .btn:hover {
 
   .project-info .project-button {
     margin-right: auto;
+    padding: 8px;
+    font-size: 14px;
   }
 
   .project-info .project-button:hover {
@@ -655,7 +657,7 @@ form .btn:hover {
     border-radius: 16px;
     color: #6070ff;
     padding: 16px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;

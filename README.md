@@ -4,7 +4,6 @@
 
 > This a first mobile project and the project is a fully responsive and a mobile friendly.
 
-
 ## Built With
 
 - HTML
@@ -14,21 +13,21 @@
 
 [Live Demo Link](https://akhror-valiev.github.io/micronauts-portfolio/)
 
-
 ## Getting Started
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Install
+
 1. Clone the repo
    ```sh
    git clone https://github.com/akhror-valiev/micronauts-portfolio.git
@@ -45,8 +44,6 @@ This is an example of how to list things you need to use the software and how to
 - GitHub: [@akhror-valiev](https://github.com/akhror-valiev)
 - Twitter: [@oshie0115](https://twitter.com/oshie0115)
 - LinkedIn: [@Ahror Valiev](https://www.linkedin.com/in/ahror-valiev-9141911b8/)
-
-
 
 ## 🤝 Contributing
 
