@@ -456,7 +456,6 @@ form .btn:hover {
   color: white;
 }
 
-
 .label {
   display: none;
 }
@@ -869,7 +868,7 @@ form .btn:hover {
     color: white;
   }
 
-  .label{
-    display:none;
+  .label {
+    display: none;
   }
 }
