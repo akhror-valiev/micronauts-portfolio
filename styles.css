@@ -456,6 +456,11 @@ form .btn:hover {
   color: white;
 }
 
+
+.label {
+  display: none;
+}
+
 /* ======================MOBILE VIEW ================================ */
 
 @media only screen and (max-width: 767px) {
@@ -862,5 +867,9 @@ form .btn:hover {
   form .btn:hover {
     background: #2230d2;
     color: white;
+  }
+
+  .label{
+    display:none;
   }
 }
