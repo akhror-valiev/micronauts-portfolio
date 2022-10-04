@@ -161,7 +161,7 @@ h3 {
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0;
-  color: #afaaaa;
+  color: #6b778c;
 }
 
 .project-info p {
@@ -557,6 +557,7 @@ form .btn:hover {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 50px;
+    height: max-content;
   }
 
   .project-items .desktop {
@@ -612,7 +613,7 @@ form .btn:hover {
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0;
-    color: #afaaaa;
+    color: #6b778c;
   }
 
   .project-info p {
