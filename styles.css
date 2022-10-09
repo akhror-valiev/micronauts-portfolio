@@ -94,9 +94,11 @@ h3 {
   gap: 20px;
 }
 
+/* ======================Project Section===================== */
+
 .project-section {
   display: grid;
-  padding: 10% 10%;
+  padding: 3% 3%;
   background-color: #e5e5e5;
   margin: 10px;
 }
@@ -105,7 +107,7 @@ h3 {
   background-color: white;
   border-radius: 24px;
   border: 1px solid #dfe1e6;
-  padding: 40px;
+  padding: 25px;
   display: flex;
   margin-top: 100px;
   gap: 5%;
@@ -145,8 +147,6 @@ h3 {
 .project-details .project-detail {
   font-size: 18px;
   font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0;
   text-align: left;
 }
 
@@ -174,7 +174,7 @@ h3 {
 .project-info .project-tech {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   list-style-type: none;
   margin-top: 20px;
 }
@@ -193,8 +193,6 @@ h3 {
 
 .project-info .project-button {
   margin-right: auto;
-  font-size: 17px;
-  font-weight: 500;
   text-decoration: none;
 }
 
@@ -213,11 +211,10 @@ h3 {
   border: 1.5px solid #6070ff;
   border-radius: 16px;
   color: #6070ff;
-  padding: 16px;
+  padding: 15px;
   font-size: 17px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -229,6 +226,7 @@ h3 {
   display: grid;
   grid-template-columns: 40% 60%;
   padding: 100px 100px 300px 90px;
+  max-height: max-content;
 }
 
 .about-section .wrap-one {
@@ -357,7 +355,7 @@ hr {
   background-position-y: 200px;
   right: 80px;
   background-color: #6070ff;
-  margin-top: -10%;
+  min-height: max-content;
   padding: 114px 24px;
   border-top-left-radius: 100px;
   background-position-x: right;
@@ -478,7 +476,8 @@ form .btn:hover {
   }
 
   .main-section__header {
-    height: 100vh;
+    height: 100%;
+    padding: 25% 0 25% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -494,6 +493,7 @@ form .btn:hover {
   .main-section__items {
     margin: 10px;
     padding: 10px;
+    max-height: 100%;
   }
 
   h1 {
@@ -547,7 +547,7 @@ form .btn:hover {
 
   .project-section {
     display: grid;
-    padding: 5% 5%;
+    padding: 2% 2%;
     gap: 10px;
     background-color: #e5e5e5;
   }
