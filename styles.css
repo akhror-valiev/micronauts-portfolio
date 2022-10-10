@@ -25,9 +25,9 @@ nav {
   width: 100%;
 }
 
-nav ul {
+.nav-menu {
   display: flex;
-  flex-direction: row;
+
   list-style-type: none;
   width: 100%;
   justify-content: end;
@@ -471,8 +471,12 @@ form .btn:hover {
     width: 100%;
   }
 
-  nav ul {
+  nav ul{
     display: none;
+  }
+
+  .nav-menu{
+   display: flex; 
   }
 
   .main-section__header {
@@ -538,9 +542,8 @@ form .btn:hover {
     cursor: pointer;
   }
 
-  .bar-top,
-  .bar-middle,
-  .bar-bottom {
+  
+  .bar{
     height: 3px;
     background-color: #6070ff;
   }
