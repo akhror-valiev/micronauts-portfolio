@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   border-bottom-left-radius: 100px;
   font-family: "Poppins", sans-serif;
@@ -27,7 +29,6 @@ nav {
 
 .nav-menu {
   display: flex;
-
   list-style-type: none;
   width: 100%;
   justify-content: end;
@@ -471,14 +472,6 @@ form .btn:hover {
     width: 100%;
   }
 
-  nav ul{
-    display: none;
-  }
-
-  .nav-menu{
-   display: flex; 
-  }
-
   .main-section__header {
     height: 100%;
     padding: 25% 0 25% 0;
@@ -542,10 +535,62 @@ form .btn:hover {
     cursor: pointer;
   }
 
-  
-  .bar{
+  .bar {
     height: 3px;
     background-color: #6070ff;
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s ease;
+    background: #fff;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: 0.5s ease;
+    background: #fff;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+    transition: 0.5s ease all;
+    background: #fff;
+  }
+
+  .nav-menu {
+    left: -100%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 0 300px 30px;
+    backdrop-filter: blur(8px);
+    background: #6070ff;
+    width: 100%;
+    transition: 0.5s ease;
+    mix-blend-mode: multiply;
+  }
+
+  .nav-item {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 32px;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #fff;
+  }
+
+  .nav-link:hover {
+    color: #1422bb;
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 
   .project-section {
