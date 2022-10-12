@@ -7,7 +7,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
+    <script src="js/script.js" defer></script>
     <title>Portfolio | Home</title>
   </head>
 
@@ -19,9 +21,15 @@
             <img class="rotation" src="images/logo.png" alt="Logo" />
           </a>
           <ul class="nav-menu">
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
 
           <div class="hamburger-menu">
@@ -31,7 +39,7 @@
           </div>
         </nav>
       </header>
-      <div  class="main-section__items">
+      <div class="main-section__items">
         <h1 class="mobile">I'm Mariana <br />Glad to see<br />you!</h1>
         <h1 class="desktop">
           I'm Mariana<br />
@@ -58,7 +66,7 @@
     </section>
 
     <section id="portfolio" class="project-section">
-      <div class="project-items">
+      <div class="project-items" data-name="p-1">
         <img
           class="img-anim"
           src="images/Snapshoot Portfolio1.svg"
@@ -87,7 +95,7 @@
         </div>
       </div>
 
-      <div class="project-items">
+      <div class="project-items" data-name="p-2">
         <img
           class="mobile img-anim"
           src="images/portfolio2.png"
@@ -123,7 +131,7 @@
           alt="Project photo"
         />
       </div>
-      <div class="project-items">
+      <div class="project-items" data-name="p-3">
         <img
           class="img-anim"
           src="images/Snapshoot Portfolio3.svg"
@@ -152,7 +160,7 @@
           <a class="project-button btn-anim" href="">See Project</a>
         </div>
       </div>
-      <div class="project-items">
+      <div class="project-items" data-name="p-4">
         <img
           class="mobile img-anim"
           src="images/portfolio1.png"
@@ -201,7 +209,7 @@
 
         <h3>LET'S CONNECT</h3>
 
-        <ul  class="about-socials">
+        <ul class="about-socials">
           <li href=""><img src="images/twitter.png" alt="Twitter logo" /></li>
           <li href=""><img src="images/twitter.png" alt="Twitter logo" /></li>
           <li href=""><img src="images/git.png" alt="Git logo" /></li>
@@ -305,6 +313,90 @@
         </form>
       </div>
     </section>
-    <script src="js/script.js"></script>
+
+    <section class="preview-section">
+    <div class="preview-container" data-target="p-1">
+      <i class="fa fa-close" style="font-size:24px"></i>
+      <h2>Tonic</h2> 
+      <ul class="preview-stack-item">
+        <li class="canopy">CONOPY</li>
+        <li>Back End Dev</li>
+        <li>2015</li>
+      </ul>
+      <div class="preview-data">
+        <img src="images/Snapshoot Portfolio.png" alt="Preview project" />
+        <div class="preview-info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            repudiandae ipsa porro quam iusto voluptatum nostrum veniam suscipit
+            magnam aliquam, culpa, nam quaerat ab, esse at iure iste voluptas.
+           
+          </p>
+          <div class="preview-secondary-info">
+            <ul class="preview-detail">
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+              <li>github</li>
+              <li>ruby</li>
+              <li>bootstrap</li>
+            </ul>
+            <hr>
+            <div class="preview-button">
+              <a href="">See Live</a>
+              <a href="">See Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview-container" data-target="p-2">
+      <i class="fa fa-close" style="font-size:24px"></i>
+      <h2>Tonic</h2> 
+      <ul class="preview-stack-item">
+        <li class="canopy">CONOPY</li>
+        <li>Back End Dev</li>
+        <li>2015</li>
+      </ul>
+      <div class="preview-data">
+        <img src="images/Snapshoot Portfolio2.svg." alt="Preview project" />
+        <div class="preview-info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            repudiandae ipsa porro quam iusto voluptatum nostrum veniam suscipit
+            magnam aliquam, culpa, nam quaerat ab, esse at iure iste voluptas.
+           
+          </p>
+          <div class="preview-secondary-info">
+            <ul class="preview-detail">
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+              <li>github</li>
+              <li>ruby</li>
+              <li>bootstrap</li>
+            </ul>
+            <hr>
+            <div class="preview-button">
+              <a href="">See Live</a>
+              <a href="">See Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+    
+
+    
+    
+  </section>
+
+   
+    
   </body>
 </html>

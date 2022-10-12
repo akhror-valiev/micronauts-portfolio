@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -459,6 +460,118 @@ form .btn:hover {
 
 .label {
   display: none;
+}
+
+/*============================Project Preview===========================*/
+
+.preview-section {
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.preview-section .preview-container {
+  margin: 10% 15% 10% 15%;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  max-height: 100%;
+  
+  display: none;
+}
+
+.project-section .preview-container.active {
+  display: inline-block;
+}
+
+.preview-container i {
+  right: 0;
+  position: absolute;
+  padding: 25px 20px 0 0;
+  cursor: pointer;
+}
+
+.preview-container h2 {
+  padding: 20px 0 0 40px;
+}
+
+.preview-stack-item {
+  display: flex;
+  gap: 20px;
+  padding: 0 0 30px 40px;
+}
+
+.preview-container .canopy {
+  list-style-type: none;
+}
+
+.preview-container .preview-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-container img {
+  width: 90%;
+}
+
+.preview-info {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 40px;
+}
+
+.preview-info p {
+  margin: 0;
+}
+
+.preview-secondary-info {
+  display: flex;
+  flex-direction: column;
+}
+.preview-secondary-info .preview-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  list-style: none;
+}
+
+.preview-detail li {
+  background: #ebebff;
+  color: #6070ff;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+hr {
+  height: 1.5px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.preview-button {
+  display: flex;
+  gap: 5%;
+  padding: 10px 0 0 10px;
+}
+
+.preview-button a {
+  border: 2px solid #6070ff;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #6070ff;
+  font-size: 12px;
+  padding: 4px 12px 4px 12px;
 }
 
 /* ======================MOBILE VIEW ================================ */
