@@ -462,7 +462,7 @@ form .btn:hover {
   display: none;
 }
 
-/*============================Project Preview===========================*/
+/* ============================Project Preview=========================== */
 
 .preview-section {
   position: fixed;
@@ -476,15 +476,12 @@ form .btn:hover {
   width: 100%;
 }
 
-
-
 .preview-section .preview-container {
   margin: 10% 15% 10% 15%;
   background: #fff;
   border-radius: 20px;
   position: relative;
   max-height: 100%;
-  
   display: none;
 }
 
@@ -537,6 +534,7 @@ form .btn:hover {
   display: flex;
   flex-direction: column;
 }
+
 .preview-secondary-info .preview-detail {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -553,19 +551,13 @@ form .btn:hover {
   font-size: 12px;
 }
 
-hr {
-  height: 1.5px;
-  color: grey;
-  margin-top: 10px;
-}
-
 .preview-button {
   display: flex;
   gap: 5%;
   padding: 10px 0 0 10px;
 }
 
-.preview-button a {
+.preview-button .live-btn {
   border: 2px solid #6070ff;
   text-decoration: none;
   border-radius: 6px;
