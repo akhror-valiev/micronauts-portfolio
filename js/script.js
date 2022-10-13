@@ -143,18 +143,20 @@ const previewContainer = document.querySelector('.preview-section');
 const previewBox = previewContainer.querySelectorAll('.preview-container');
 
 document
-  .querySelectorAll('.project-section .project-items')
+  .querySelectorAll('.project-items')
   .forEach((project) => {
     project.onclick = () => {
       previewContainer.style.display = 'flex';
 
       const name = project.getAttribute('data-name');
+      console.log(previewBox);
 
       previewBox.forEach((preview) => {
         const target = preview.getAttribute('data-target');
 
         if (name === target) {
           preview.classList.add('active');
+          preview.style.display ="flex"
         }
       });
     };
