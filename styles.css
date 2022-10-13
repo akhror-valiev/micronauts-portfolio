@@ -203,7 +203,6 @@ h3 {
   border: 2px solid #6070ff;
   color: #6070ff;
   font-size: 16px;
-  
 }
 
 .project-info .project-button:hover {
@@ -480,7 +479,6 @@ form .btn:hover {
   align-items: center;
   width: 100%;
   display: none;
-  
 }
 
 .preview-section .preview-container {
@@ -488,12 +486,10 @@ form .btn:hover {
   background: #fff;
   border-radius: 20px;
   position: relative;
-  max-height: 100%;
   display: none;
   -webkit-overflow-scrolling: touch;
   overflow: auto;
   max-height: 500px;
-  
 }
 
 .preview-section .preview-container.active {
@@ -1038,7 +1034,7 @@ form .btn:hover {
     display: none;
   }
 
-  /*===================Preview for Mobile ==========================*/
+  /* ===================Preview for Mobile ========================== */
 
   .preview-section {
     position: fixed;
@@ -1050,9 +1046,8 @@ form .btn:hover {
     align-items: center;
     width: 100%;
     display: none;
-    
   }
-  
+
   .preview-section .preview-container {
     margin: 2% 5% 2% 4%;
     background: #fff;
@@ -1060,72 +1055,68 @@ form .btn:hover {
     position: relative;
     max-height: 100%;
     display: none;
-   
-    
   }
 
   .preview-section .preview-container.active {
     display: inline-block;
   }
-  
+
   .preview-container i {
     right: 0;
     position: absolute;
     padding: 10px 10px 0 0;
     cursor: pointer;
   }
-  
+
   .preview-container h2 {
     text-align: center;
     font-size: 20px;
   }
-  
+
   .preview-stack-item {
     display: flex;
     gap: 20px;
     font-size: 14px;
     justify-content: center;
-    
   }
-  
+
   .preview-container .canopy {
     list-style-type: none;
   }
-  
+
   .preview-container .preview-data {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .preview-container img {
+
+  .preview-container .photo-m {
     width: 60%;
     max-width: 100%;
   }
-  
+
   .preview-info {
     display: grid;
     grid-template-columns: 1fr;
     padding: 15px;
   }
-  
+
   .preview-info p {
     margin: 0;
     font-size: 14px;
   }
-  
+
   .preview-secondary-info {
     display: flex;
     flex-direction: column;
   }
-  
+
   .preview-secondary-info .preview-detail {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     list-style: none;
   }
-  
+
   .preview-detail li {
     background: #ebebff;
     color: #6070ff;
@@ -1134,14 +1125,13 @@ form .btn:hover {
     padding: 2px 8px;
     font-size: 12px;
   }
-  
+
   .preview-button button {
     display: flex;
     gap: 5%;
-    
     padding: 5px 0 0 5px;
   }
-  
+
   .preview-button .live-btn {
     border: 2px solid #6070ff;
     text-decoration: none;
@@ -1150,9 +1140,4 @@ form .btn:hover {
     font-size: 12px;
     padding: 4px 12px 4px 12px;
   }
-
-  
-
 }
-
-

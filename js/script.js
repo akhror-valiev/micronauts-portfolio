@@ -107,7 +107,7 @@ function renderProjects() {
         <li>${data.type[2]}</li>
       </ul>
       <div class="preview-data">
-        <img src="${data.img.src}" alt="${data.img.alt}" />
+        <img class="photo-m" src="${data.img.src}" alt="${data.img.alt}" />
         <div class="preview-info">
           <p>
             ${data.description}
@@ -149,14 +149,12 @@ document
       previewContainer.style.display = 'flex';
 
       const name = project.getAttribute('data-name');
-      console.log(previewBox);
 
       previewBox.forEach((preview) => {
         const target = preview.getAttribute('data-target');
 
         if (name === target) {
           preview.classList.add('active');
-        
         }
       });
     };
