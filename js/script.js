@@ -124,8 +124,8 @@ function renderProjects() {
             </ul>
             <hr>
             <div class="preview-button">
-              <a href="">See Live</a>
-              <a href="">See Source</a>
+              <button href="">See Live</button>
+              <button href="">See Source</button>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ const previewContainer = document.querySelector('.preview-section');
 const previewBox = previewContainer.querySelectorAll('.preview-container');
 
 document
-  .querySelectorAll('.project-items')
+  .querySelectorAll('.project-button')
   .forEach((project) => {
     project.onclick = () => {
       previewContainer.style.display = 'flex';
@@ -156,7 +156,7 @@ document
 
         if (name === target) {
           preview.classList.add('active');
-          preview.style.display ="flex"
+        
         }
       });
     };
