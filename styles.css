@@ -477,6 +477,7 @@ form .btn:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    display: none;
 }
 
 .preview-section .preview-container {
