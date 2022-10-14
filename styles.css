@@ -574,9 +574,10 @@ form .btn:hover {
 }
 
 .msg.active {
-  font-size: 12px;
-  color: red;
-  z-index: 99999;
+  font-size: 16px;
+  color: rgb(222, 119, 119);
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 /* ======================MOBILE VIEW ================================ */
@@ -1145,5 +1146,11 @@ form .btn:hover {
     color: #6070ff;
     font-size: 12px;
     padding: 4px 12px 4px 12px;
+  }
+
+  .msg.active {
+    font-size: 20px;
+    color: rgb(251, 140, 140);
+    text-align: center;
   }
 }

@@ -171,7 +171,7 @@ const contactForm = document.querySelector('.contact-form');
 const warnMsg = document.querySelector('.msg');
 
 contactForm.addEventListener('submit', (event) => {
-  const emailValue = document.getElementById('email').value;
+  const emailValue = document.getElementById('email-address').value;
   if (emailValue.toLowerCase() !== emailValue) {
     event.preventDefault();
     warnMsg.classList.add('active');
