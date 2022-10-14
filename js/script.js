@@ -171,7 +171,7 @@ const contactForm = document.querySelector('.contact-form');
 const warnMsg = document.querySelector('.msg');
 
 contactForm.addEventListener('submit', (event) => {
-  const emailValue = document.getElementById('email-address').value;
+  const emailValue = document.getElementById('email').value;
   if (emailValue.toLowerCase() !== emailValue) {
     event.preventDefault();
     warnMsg.classList.add('active');
@@ -180,3 +180,51 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit();
   }
 });
+
+/*= =====================Local Storage============================== */
+function storageAvailable(type) {
+  let storage;
+  try {
+    storage = window[type];
+    const x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return e instanceof DOMException && (
+
+      e.code === 22
+
+            || e.code === 1014
+
+            || e.name === 'QuotaExceededError'
+
+            || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
+
+            && (storage && storage.length !== 0);
+  }
+}
+
+if (storageAvailable('localStorage')) {
+  const inputs = [contactForm.name, contactForm.email, contactForm.message];
+
+  inputs.forEach((input) => {
+    input.addEventListener('input', () => {
+      const dataStorage = {
+        fullName: contactForm.name.value,
+        email: contactForm.email.value,
+        message: contactForm.message.value,
+      };
+
+      localStorage.setItem('data', JSON.stringify(dataStorage));
+    });
+  });
+
+  const getInput = JSON.parse(localStorage.getItem('data'));
+
+  if (getInput) {
+    contactForm.name.value = getInput.fullName;
+    contactForm.message.value = getInput.message;
+    contactForm.email.value = getInput.email;
+  }
+}
