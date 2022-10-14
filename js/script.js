@@ -142,27 +142,41 @@ renderProjects();
 const previewContainer = document.querySelector('.preview-section');
 const previewBox = previewContainer.querySelectorAll('.preview-container');
 
-document
-  .querySelectorAll('.project-button')
-  .forEach((project) => {
-    project.onclick = () => {
-      previewContainer.style.display = 'flex';
+document.querySelectorAll('.project-button').forEach((project) => {
+  project.onclick = () => {
+    previewContainer.style.display = 'flex';
 
-      const name = project.getAttribute('data-name');
+    const name = project.getAttribute('data-name');
 
-      previewBox.forEach((preview) => {
-        const target = preview.getAttribute('data-target');
+    previewBox.forEach((preview) => {
+      const target = preview.getAttribute('data-target');
 
-        if (name === target) {
-          preview.classList.add('active');
-        }
-      });
-    };
-  });
+      if (name === target) {
+        preview.classList.add('active');
+      }
+    });
+  };
+});
 
 previewBox.forEach((close) => {
   close.querySelector('.fa-close').onclick = () => {
     close.classList.remove('active');
     previewContainer.style.display = 'none';
   };
+});
+
+//= ==================Form  Validation======================//
+
+const contactForm = document.querySelector('.contact-form');
+const warnMsg = document.querySelector('.msg');
+
+contactForm.addEventListener('submit', (event) => {
+  const emailValue = document.getElementById('email-address').value;
+  if (emailValue.toLowerCase() !== emailValue) {
+    event.preventDefault();
+    warnMsg.classList.add('active');
+    warnMsg.innerHTML = 'Please write valid an email address with lower letters';
+  } else {
+    contactForm.submit();
+  }
 });
