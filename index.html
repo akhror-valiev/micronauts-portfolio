@@ -225,7 +225,7 @@
             </p>
         </div>
         <div class="form">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgdqjvg" method="post">
+            <form class="contact-form" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgdqjvg" method="post">
                 <fieldset id="fs-frm-inputs">
                     <label class="label" for="full-name">Full Name</label>
                     <input type="text" name="name" id="full-name" required maxlength="30" placeholder="Oshie" />
@@ -236,10 +236,13 @@
 
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
                 </fieldset>
+                
                 <div>
                     <input class="btn btn-anim" type="submit" value="Get in touch" />
                 </div>
+                <span class="msg"></span>
             </form>
+            
         </div>
     </section>
 
